@@ -1,0 +1,29 @@
+# Java
+.classpath
+.project
+.settings/
+.idea/
+target/
+*.iml
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Node.js
+node_modules/
+.npm
+
+# IDE
+.vscode/
+.DS_Store
+
+# Application
+*.log
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
