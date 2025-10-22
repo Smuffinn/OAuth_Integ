@@ -20,14 +20,14 @@ const Home = ({ user }) => {
           <p className="lead mb-4">Please sign in to continue</p>
           <div className="d-flex justify-content-center gap-3">
             <a 
-              href="/oauth2/authorization/google" 
+              href="http://localhost:8080/oauth2/authorization/google" 
               className="btn btn-outline-danger"
             >
               <i className="bi bi-google me-2"></i>
               Sign in with Google
             </a>
             <a 
-              href="/oauth2/authorization/github" 
+              href="http://localhost:8080/oauth2/authorization/github" 
               className="btn btn-outline-dark"
             >
               <i className="bi bi-github me-2"></i>

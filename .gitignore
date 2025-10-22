@@ -24,6 +24,13 @@ node_modules/
 *.swp
 *.swo
 
+# Environment Variables & Sensitive Files
+.env
+.env.local
+**/.env.local
+application-local.properties
+**/application-local.properties
+
 # System Files
 .DS_Store
 Thumbs.db

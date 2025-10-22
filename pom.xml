@@ -67,6 +67,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.example.oauth2demo.OAuth2DemoApplication</mainClass>
+				</configuration>
 			</plugin>
 			
 			<!-- Frontend Maven Plugin -->
